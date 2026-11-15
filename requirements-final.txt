@@ -1,0 +1,11 @@
+# Everything needed to regenerate the submission and score it. Versions are the ones the submission
+# was produced and checked with (Python 3.14, Windows 11).
+#
+#     python -m pip install -r requirements-final.txt
+#     python make_submission.py
+#
+# pandas is pinned to 2.3.3 rather than the latest release: pandas 3.1.1 was blocked by a Windows
+# Application Control policy on the development machine. Any recent numpy and pandas will do; the
+# method itself uses numpy only, and pandas is needed by the organisers' scorer.
+numpy==2.5.4
+pandas==2.3.3
